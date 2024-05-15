@@ -1,0 +1,43 @@
+.wrap {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+ul {
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+  width: 700px;
+}
+li {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+li img {
+  width: 150px;
+  height: 100px;
+}
+.bigimg {
+  position: relative;
+}
+.bigimg h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+}
+.bigimg img {
+  // width: 1000px;
+}
+.text {
+  margin-left: 50px;
+}
+.text h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.text p {
+  font-size: 30px;
+}
